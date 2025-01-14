@@ -1,0 +1,279 @@
+[2024-12-30 09:59:18.821]: entering -- org.netbeans.installer.Installer.main():61
+[2024-12-30 09:59:18.821]: initializing the installer engine
+[2024-12-30 09:59:18.821]:     entering -- org.netbeans.installer.Installer.<init>():96
+[2024-12-30 09:59:18.821]:     ... initializing ErrorHandler
+[2024-12-30 09:59:18.821]:     ... end of ErrorHandler initialization
+[2024-12-30 09:59:18.821]:     exiting -- org.netbeans.installer.Installer.<init>():96
+[2024-12-30 09:59:18.821]:     entering -- org.netbeans.installer.Installer.<init>():97
+[2024-12-30 09:59:18.821]:     dumping target system information
+[2024-12-30 09:59:18.821]:         system properties:
+[2024-12-30 09:59:18.837]:             file.encoding => UTF-8
+[2024-12-30 09:59:18.837]:             file.separator => \
+[2024-12-30 09:59:18.837]:             java.class.path => C:\Users\anura\AppData\Local\Temp\\NBI96960.tmp\uninstall.jar
+[2024-12-30 09:59:18.837]:             java.class.version => 64.0
+[2024-12-30 09:59:18.837]:             java.home => C:\Program Files\Java\jdk-20
+[2024-12-30 09:59:18.837]:             java.io.tmpdir => C:\Users\anura\AppData\Local\Temp\
+[2024-12-30 09:59:18.837]:             java.library.path => C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.5-bin\apache-maven-3.9.5\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Xampp\php;C:\Program Files\Git\cmd;C:\MinGW\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\anura\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\anura\AppData\Local\Programs\Python\Python312\;C:\Users\anura\AppData\Local\Microsoft\WindowsApps;C:\Users\anura\AppData\Roaming\npm;C:\Users\anura\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Python312;C:\Users\anura\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\7.0\bin;C:\MinGW\bin\gcc.exe;.
+[2024-12-30 09:59:18.837]:             java.runtime.name => Java(TM) SE Runtime Environment
+[2024-12-30 09:59:18.837]:             java.runtime.version => 20.0.2+9-78
+[2024-12-30 09:59:18.837]:             java.specification.name => Java Platform API Specification
+[2024-12-30 09:59:18.837]:             java.specification.vendor => Oracle Corporation
+[2024-12-30 09:59:18.837]:             java.specification.version => 20
+[2024-12-30 09:59:18.837]:             java.vendor => Oracle Corporation
+[2024-12-30 09:59:18.837]:             java.vendor.url => https://java.oracle.com/
+[2024-12-30 09:59:18.837]:             java.vendor.url.bug => https://bugreport.java.com/bugreport/
+[2024-12-30 09:59:18.837]:             java.version => 20.0.2
+[2024-12-30 09:59:18.837]:             java.version.date => 2023-07-18
+[2024-12-30 09:59:18.837]:             java.vm.compressedOopsMode => 32-bit
+[2024-12-30 09:59:18.837]:             java.vm.info => mixed mode, sharing
+[2024-12-30 09:59:18.837]:             java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+[2024-12-30 09:59:18.837]:             java.vm.specification.name => Java Virtual Machine Specification
+[2024-12-30 09:59:18.837]:             java.vm.specification.vendor => Oracle Corporation
+[2024-12-30 09:59:18.837]:             java.vm.specification.version => 20
+[2024-12-30 09:59:18.837]:             java.vm.vendor => Oracle Corporation
+[2024-12-30 09:59:18.837]:             java.vm.version => 20.0.2+9-78
+[2024-12-30 09:59:18.837]:             jdk.debug => release
+[2024-12-30 09:59:18.837]:             line.separator => 
+[2024-12-30 09:59:18.837]:             native.encoding => Cp1252
+[2024-12-30 09:59:18.837]:             netbeans.default_cachedir_root => C:\Users\anura\AppData\Local\NetBeans\Cache
+[2024-12-30 09:59:18.837]:             netbeans.default_userdir_root => C:\Users\anura\AppData\Roaming\NetBeans
+[2024-12-30 09:59:18.837]:             os.arch => amd64
+[2024-12-30 09:59:18.837]:             os.name => Windows 11
+[2024-12-30 09:59:18.837]:             os.version => 10.0
+[2024-12-30 09:59:18.837]:             path.separator => ;
+[2024-12-30 09:59:18.837]:             stderr.encoding => Cp1252
+[2024-12-30 09:59:18.837]:             stdout.encoding => Cp1252
+[2024-12-30 09:59:18.837]:             sun.arch.data.model => 64
+[2024-12-30 09:59:18.837]:             sun.boot.library.path => C:\Program Files\Java\jdk-20\bin
+[2024-12-30 09:59:18.837]:             sun.cpu.endian => little
+[2024-12-30 09:59:18.837]:             sun.cpu.isalist => amd64
+[2024-12-30 09:59:18.837]:             sun.io.unicode.encoding => UnicodeLittle
+[2024-12-30 09:59:18.837]:             sun.java.command => org.netbeans.installer.Installer --target nb-all 19.0.0.230824.0 --force-uninstall
+[2024-12-30 09:59:18.837]:             sun.java.launcher => SUN_STANDARD
+[2024-12-30 09:59:18.837]:             sun.jnu.encoding => Cp1252
+[2024-12-30 09:59:18.837]:             sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+[2024-12-30 09:59:18.837]:             sun.os.patch.level => 
+[2024-12-30 09:59:18.837]:             user.country => US
+[2024-12-30 09:59:18.837]:             user.dir => C:\Program Files (x86)\IObit\IObit Uninstaller
+[2024-12-30 09:59:18.837]:             user.home => C:\Users\anura
+[2024-12-30 09:59:18.837]:             user.language => en
+[2024-12-30 09:59:18.837]:             user.name => anura
+[2024-12-30 09:59:18.837]:             user.script => 
+[2024-12-30 09:59:18.837]:             user.timezone => Asia/Calcutta
+[2024-12-30 09:59:18.837]:             user.variant => 
+[2024-12-30 09:59:18.837]:     ... end of target system information
+[2024-12-30 09:59:18.837]:     exiting -- org.netbeans.installer.Installer.<init>():97
+[2024-12-30 09:59:18.852]:     loading jni library
+[2024-12-30 09:59:18.852]:         library resource path: native/jnilib/windows/windows-x64.dll
+[2024-12-30 09:59:18.962]:         library file path: C:\Users\anura\AppData\Local\Temp\nbi-8071243508052001686.tmp
+[2024-12-30 09:59:18.978]:         ... successfully loaded the library
+[2024-12-30 09:59:18.978]:     entering -- org.netbeans.installer.Installer.<init>():102
+[2024-12-30 09:59:18.978]:     parsing command-line arguments
+[2024-12-30 09:59:18.978]:         ... parsing arguments : [--target], [nb-all], [19.0.0.230824.0], [--force-uninstall]
+[2024-12-30 09:59:18.978]:         parsing command line parameter "--target"
+[2024-12-30 09:59:18.978]:             target component:
+[2024-12-30 09:59:18.978]:             ... uid:     nb-all
+[2024-12-30 09:59:18.978]:             ... version: 19.0.0.230824.0
+[2024-12-30 09:59:18.978]:         parsing command line parameter "--force-uninstall"
+[2024-12-30 09:59:18.978]:     ... finished parsing command line arguments
+[2024-12-30 09:59:18.978]:     exiting -- org.netbeans.installer.Installer.<init>():102
+[2024-12-30 09:59:18.978]:     entering -- org.netbeans.installer.Installer.<init>():103
+[2024-12-30 09:59:18.978]:     loading engine properties
+[2024-12-30 09:59:18.978]:         loading engine properties
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.default => 600
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.gtk => 704
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.head.right.image => resource:org/netbeans/installer/wizard/wizard-description-background.png
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.nimbus => 624
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.xp => 450
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.nimbus => 512
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.title.prefix => Apache NetBeans IDE Installer
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.nimbus => 624
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.win.xp => 600
+[2024-12-30 09:59:18.978]:             loading nbi.overall.license.jdk5.resource => org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.classic => 442
+[2024-12-30 09:59:18.978]:             loading nbi.overall.license.jtb.resource => org/netbeans/installer/product/components/netbeans-license-jtb.txt
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.motif => 470
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.default => 600
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.aqua => 480
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.xp => 600
+[2024-12-30 09:59:18.978]:             loading nbi.overall.license.jdk6.resource => org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.aqua => 480
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.default => 500
+[2024-12-30 09:59:18.978]:             loading nbi.overall.license.mysql.resource => org/netbeans/installer/product/components/netbeans-license-mysql.txt
+[2024-12-30 09:59:18.978]:             loading nbi.product.suggest.install => true
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.icon => resource:org/netbeans/installer/wizard/wizard-icon.png
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.aqua => 640
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.motif => 470
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.gtk => 528
+[2024-12-30 09:59:18.978]:             loading nbi.product.remove.corrupted.products.silently => true
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.motif => 624
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.classic => 588
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.welcome.left.bottom.image => resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2024-12-30 09:59:18.978]:             loading nbi.macosx.application.directory.name => NetBeans IDE Installer
+[2024-12-30 09:59:18.978]:             loading nbi.overall.license.resource => org/netbeans/installer/product/components/netbeans-license.txt
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.gtk => 528
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.metal => 624
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.motif => 624
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.metal => 470
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.gtk => 704
+[2024-12-30 09:59:18.978]:             loading nbi.junit.license.resource => org/netbeans/installer/product/components/junit-license.txt
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.metal => 624
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.default => 500
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.win.classic => 442
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.win.xp => 450
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.height.nimbus => 512
+[2024-12-30 09:59:18.978]:             loading nbi.overall.license.javafx.resource => org/netbeans/installer/product/components/netbeans-license-javafx.txt
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.title.pattern => {0}
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.width.win.classic => 588
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.height.metal => 470
+[2024-12-30 09:59:18.978]:             loading nbi.wizard.ui.swing.frame.minimum.width.aqua => 640
+[2024-12-30 09:59:18.978]:     ... finished loading engine properties
+[2024-12-30 09:59:18.978]:     exiting -- org.netbeans.installer.Installer.<init>():103
+[2024-12-30 09:59:18.978]:     initializing the local directory
+[2024-12-30 09:59:18.978]:         ... custom local directory was not specified, using the default
+[2024-12-30 09:59:18.978]:         ... local directory: C:\Users\anura\.nbi
+[2024-12-30 09:59:18.978]:     ... finished initializing local directory
+[2024-12-30 09:59:19.025]:     entering -- org.netbeans.installer.Installer.<init>():109
+[2024-12-30 09:59:19.025]:     ... initializing DownloadManager
+[2024-12-30 09:59:19.025]:         file not exist, queue is empty!
+[2024-12-30 09:59:19.025]:     ... end of initializing DownloadManager
+[2024-12-30 09:59:19.025]:     exiting -- org.netbeans.installer.Installer.<init>():109
+[2024-12-30 09:59:19.025]:     entering -- org.netbeans.installer.Installer.<init>():110
+[2024-12-30 09:59:19.041]:     ... initializing Registry
+[2024-12-30 09:59:19.041]:     ... end of initializing ErrorHandler
+[2024-12-30 09:59:19.041]:     exiting -- org.netbeans.installer.Installer.<init>():110
+[2024-12-30 09:59:19.041]:     entering -- org.netbeans.installer.Installer.<init>():111
+[2024-12-30 09:59:19.041]:     ... initializing Wizard
+[2024-12-30 09:59:19.110]:         ... loading registry from resource:data/registry.xml
+[2024-12-30 09:59:19.119]:         entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2024-12-30 09:59:19.119]:         validating previous installations
+[2024-12-30 09:59:19.119]:         ... validating installations finished
+[2024-12-30 09:59:19.119]:         exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2024-12-30 09:59:19.135]:         Can`t load message in bundle org.netbeans.installer.wizard.components.panels.netbeans.Bundle for key NPrISP.installation.folders using [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e] classloader
+[2024-12-30 09:59:19.135]:     ... end of initializing Wizard
+[2024-12-30 09:59:19.135]:     exiting -- org.netbeans.installer.Installer.<init>():111
+[2024-12-30 09:59:19.135]:     creating lock file
+[2024-12-30 09:59:19.135]:         ... created lock file: C:\Users\anura\.nbi\.nbilock
+[2024-12-30 09:59:19.135]:     finished creating lock file
+[2024-12-30 09:59:19.135]: ... finished initializing the engine
+[2024-12-30 09:59:19.135]: exiting -- org.netbeans.installer.Installer.main():61
+[2024-12-30 09:59:19.135]: entering -- org.netbeans.installer.Installer.main():61
+[2024-12-30 09:59:19.135]: starting the installer
+[2024-12-30 09:59:19.135]:     ... initializing look and feel
+[2024-12-30 09:59:19.135]:         ... custom look and feel class name was not specified, using system default
+[2024-12-30 09:59:19.182]:         ... class name: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2024-12-30 09:59:19.182]:         ... get installed L&Fs
+[2024-12-30 09:59:19.213]:         ... set specified L&F
+[2024-12-30 09:59:19.229]:         ... check headless
+[2024-12-30 09:59:19.229]:         ... creating JFileChooser object to check possible issues with UI
+[2024-12-30 09:59:19.856]:         ... getting default Toolkit to check possible issues with UI
+[2024-12-30 09:59:19.856]:         ... creating JProgressBar object to check possible issues with UI
+[2024-12-30 09:59:19.872]:         ... all UI checks done
+[2024-12-30 09:59:19.872]:         ... L&F is set
+[2024-12-30 09:59:19.872]:     ... initializing L&F finished
+[2024-12-30 09:59:19.950]:     NameResolver - to parse &Help!
+[2024-12-30 09:59:19.950]:     NameResolver - to parse < &Back
+[2024-12-30 09:59:19.950]:     NameResolver - to parse &Next >
+[2024-12-30 09:59:19.950]:     NameResolver - to parse Cancel
+[2024-12-30 09:59:19.950]:     NameResolver - to parse Configuring the Installer...
+[2024-12-30 09:59:19.950]:     NameResolver - to parse Configuring the Installer...
+[2024-12-30 09:59:19.966]:     NameResolver - to parse Configuring the Installer...
+[2024-12-30 09:59:19.966]:     NameResolver - to parse Configuring the Installer...
+[2024-12-30 09:59:19.966]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2024-12-30 09:59:19.981]:     NameResolver - to parse Configuring the Installer...
+[2024-12-30 09:59:19.981]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2024-12-30 09:59:19.981]: ... finished starting the installer
+[2024-12-30 09:59:19.981]: exiting -- org.netbeans.installer.Installer.main():61
+[2024-12-30 09:59:19.981]: NameResolver - to parse Configuring the Installer...
+[2024-12-30 09:59:19.981]: entering -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2024-12-30 09:59:19.981]: initializing product registry
+[2024-12-30 09:59:19.981]:     entering -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2024-12-30 09:59:19.981]:     initializing product registry properties
+[2024-12-30 09:59:19.981]:         initializing local product cache directory
+[2024-12-30 09:59:19.981]:         ... C:\Users\anura\.nbi\product-cache
+[2024-12-30 09:59:19.981]:         initializing local product registry file
+[2024-12-30 09:59:19.981]:             ... C:\Users\anura\.nbi\registry.xml
+[2024-12-30 09:59:19.981]:             initializing local product registry stub uri
+[2024-12-30 09:59:19.981]:             ... resource:org/netbeans/installer/product/default-registry.xml
+[2024-12-30 09:59:19.981]:             initializing bundled product registry uri
+[2024-12-30 09:59:19.981]:             ... resource:data/registry.xml
+[2024-12-30 09:59:19.981]:             initializing product registry schema uri
+[2024-12-30 09:59:19.981]:             ... resource:org/netbeans/installer/product/registry.xsd
+[2024-12-30 09:59:19.981]:             initializing remote product registries uris
+[2024-12-30 09:59:19.981]:             initializing state file schema uri
+[2024-12-30 09:59:19.981]:             ... resource:org/netbeans/installer/product/state-file.xsd
+[2024-12-30 09:59:19.981]:             initializing default state file uri
+[2024-12-30 09:59:19.981]:             ... resource:org/netbeans/installer/product/default-state-file.xml
+[2024-12-30 09:59:19.981]:             initializing target platform
+[2024-12-30 09:59:19.981]:             ... windows-x64
+[2024-12-30 09:59:19.981]:     initializing product registry properties
+[2024-12-30 09:59:19.981]:     exiting -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2024-12-30 09:59:19.981]:     ... loading registry from file:/C:/Users/anura/.nbi/registry.xml
+[2024-12-30 09:59:19.997]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2024-12-30 09:59:19.997]:     validating previous installations
+[2024-12-30 09:59:19.997]:     ... validating installations finished
+[2024-12-30 09:59:19.997]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2024-12-30 09:59:19.997]:     ... loading registry from resource:data/registry.xml
+[2024-12-30 09:59:20.012]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2024-12-30 09:59:20.012]:     validating previous installations
+[2024-12-30 09:59:20.012]:     ... validating installations finished
+[2024-12-30 09:59:20.013]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2024-12-30 09:59:20.013]:     ... showing Yes/No dialog
+[2024-12-30 09:59:20.013]:         title: Missing target component
+[2024-12-30 09:59:20.013]:         message: The specified target component - nb-all/19.0.0.230824.0
+[2024-12-30 09:59:20.013]:         was not found in the registry. The installer
+[2024-12-30 09:59:20.013]:          can continue as if the target component was not specified.
+[2024-12-30 09:59:20.013]:         Click Yes to continue, No to exit the installer.
+[2024-12-30 09:59:22.286]:     ... dialog closed, choice : yes
+[2024-12-30 09:59:22.286]: ... product registry initialization complete
+[2024-12-30 09:59:22.286]: exiting -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2024-12-30 09:59:22.302]: NameResolver - to parse &Help!
+[2024-12-30 09:59:22.302]: NameResolver - to parse < &Back
+[2024-12-30 09:59:22.302]: NameResolver - to parse &Uninstall
+[2024-12-30 09:59:22.302]: NameResolver - to parse Cancel
+[2024-12-30 09:59:22.302]: NameResolver - to parse &Uninstall
+[2024-12-30 09:59:22.302]: NameResolver - to parse The following components will be uninstalled:
+[2024-12-30 09:59:22.302]: NameResolver - to parse Total Installation Size:
+[2024-12-30 09:59:22.302]: NameResolver - to parse Total Download Size:
+[2024-12-30 09:59:22.334]: Roots : C:\, D:\, H:\
+[2024-12-30 09:59:22.334]: NameResolver - to parse Summary
+[2024-12-30 09:59:22.334]: Roots : C:\, D:\, H:\
+[2024-12-30 09:59:22.334]: NameResolver - to parse Summary
+[2024-12-30 09:59:22.334]: NameResolver - to parse Summary
+[2024-12-30 09:59:22.334]: NameResolver - to parse Summary
+[2024-12-30 09:59:22.334]: NameResolver - to parse Click Uninstall to start the uninstallation.
+[2024-12-30 09:59:22.349]: NameResolver - to parse Summary
+[2024-12-30 09:59:22.349]: NameResolver - to parse Click Uninstall to start the uninstallation.
+[2024-12-30 09:59:24.185]: Roots : C:\, D:\, H:\
+[2024-12-30 09:59:24.185]: Checking if java.awt.Desktop.getDesktop().browse() functionality is supported
+[2024-12-30 09:59:24.185]: NameResolver - to parse &Help!
+[2024-12-30 09:59:24.185]: NameResolver - to parse < &Back
+[2024-12-30 09:59:24.185]: NameResolver - to parse &Finish
+[2024-12-30 09:59:24.185]: NameResolver - to parse Cancel
+[2024-12-30 09:59:24.200]: NameResolver - to parse &Finish
+[2024-12-30 09:59:24.200]: NameResolver - to parse Setup Complete
+[2024-12-30 09:59:24.200]: NameResolver - to parse Setup Complete
+[2024-12-30 09:59:24.200]: NameResolver - to parse Setup Complete
+[2024-12-30 09:59:24.200]: NameResolver - to parse Setup Complete
+[2024-12-30 09:59:24.200]: NameResolver - to parse Click Finish to complete the Apache NetBeans IDE setup.
+[2024-12-30 09:59:24.200]: NameResolver - to parse Setup Complete
+[2024-12-30 09:59:24.216]: NameResolver - to parse Click Finish to complete the Apache NetBeans IDE setup.
+[2024-12-30 10:16:40.316]: entering -- org.netbeans.installer.wizard.components.actions.FinalizeRegistryAction.execute():46
+[2024-12-30 10:16:40.331]: finalizing product registry
+[2024-12-30 10:16:40.331]:     ... removing remaining installation data for all the products
+[2024-12-30 10:16:40.331]:     ... save local registry if necessary
+[2024-12-30 10:16:40.331]:     ... save registry to file C:\Users\anura\.nbi\registry.xml
+[2024-12-30 10:16:40.331]:     entering -- org.netbeans.installer.product.Registry.finalizeRegistry():330
+[2024-12-30 10:16:40.331]:     saving product registry file
+[2024-12-30 10:16:40.331]:         ... getting registry document
+[2024-12-30 10:16:40.363]:         ... saving registry document to file C:\Users\anura\.nbi\registry.xml
+[2024-12-30 10:16:40.363]:         entering -- org.netbeans.installer.product.Registry.saveProductRegistry():1008
+[2024-12-30 10:16:40.363]:         saving document to xml file : C:\Users\anura\.nbi\registry.xml
+[2024-12-30 10:16:40.583]:         ... document saved
+[2024-12-30 10:16:40.583]:         exiting -- org.netbeans.installer.product.Registry.saveProductRegistry():1008
+[2024-12-30 10:16:40.583]:         ... saving XML file succesfully finished
+[2024-12-30 10:16:40.583]:     ... saving product registry done
+[2024-12-30 10:16:40.583]:     exiting -- org.netbeans.installer.product.Registry.finalizeRegistry():330
+[2024-12-30 10:16:40.583]:     ... save state file if necessary
+[2024-12-30 10:16:40.583]: finalizing product registry
+[2024-12-30 10:16:40.583]: exiting -- org.netbeans.installer.wizard.components.actions.FinalizeRegistryAction.execute():46
